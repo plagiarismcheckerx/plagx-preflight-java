@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3: 2026-10-27
+
+- Documentation updates. No changes to the API or output.
+
 ## 0.1.2: 2026-10-23
 
 First Java release, matching Plagx Preflight 0.1.2 for JavaScript.

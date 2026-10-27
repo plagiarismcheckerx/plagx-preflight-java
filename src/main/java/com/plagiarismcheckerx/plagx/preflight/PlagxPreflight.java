@@ -16,7 +16,7 @@ public final class PlagxPreflight {
     private PlagxPreflight() {}
 
     /** Library version. */
-    public static final String VERSION = "0.1.2";
+    public static final String VERSION = "0.1.3";
 
     /** Check groups. "passive-voice" is off by default. */
     public static final List<String> ALL_CHECKS =

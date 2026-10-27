@@ -24,14 +24,14 @@ Maven:
 <dependency>
   <groupId>io.github.plagiarismcheckerx</groupId>
   <artifactId>plagx-preflight</artifactId>
-  <version>0.1.2</version>
+  <version>0.1.3</version>
 </dependency>
 ```
 
 Gradle:
 
 ```kotlin
-implementation("io.github.plagiarismcheckerx:plagx-preflight:0.1.2")
+implementation("io.github.plagiarismcheckerx:plagx-preflight:0.1.3")
 ```
 
 ## Quick start
@@ -54,9 +54,9 @@ for (DraftIssue issue : result.getIssues()) {
 ## Command line
 
 ```bash
-java -jar plagx-preflight-0.1.2.jar check essay.txt --min-words 1500 --max-words 2000 --style apa
-java -jar plagx-preflight-0.1.2.jar check essay.md --json
-java -jar plagx-preflight-0.1.2.jar stats essay.txt
+java -jar plagx-preflight-0.1.3.jar check essay.txt --min-words 1500 --max-words 2000 --style apa
+java -jar plagx-preflight-0.1.3.jar check essay.md --json
+java -jar plagx-preflight-0.1.3.jar stats essay.txt
 ```
 
 | Option | Meaning |
